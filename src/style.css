@@ -68,6 +68,7 @@ main {
 }
 .playlist-card {
   background-color: #000000;
+  font-weight: bold;
   padding: 8px;
   border-radius: 4px;
   display: flex;
