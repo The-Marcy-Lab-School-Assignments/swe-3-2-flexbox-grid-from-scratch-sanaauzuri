@@ -107,3 +107,15 @@ footer a {
   color: #1db954;
   text-decoration: none;
 }
+
+/* Styles for screens 600px and wider */
+@media (min-width: 600px) {
+  #playlists {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #albums {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
